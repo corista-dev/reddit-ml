@@ -92,10 +92,7 @@ def  export_to_pandas(posts_dict):
     df = pd.DataFrame(posts_dict)
     df.to_csv(path, index=False)
 
-def main():
-
-
-    mode ='hot'
+def process(mode):
 
     reddit = create_session()
     subreddit = reddit.subreddit('syriancivilwar')
