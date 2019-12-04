@@ -105,4 +105,3 @@ def main():
     print(posts_dict)
     export_to_pandas(posts_dict)
 
-main()
