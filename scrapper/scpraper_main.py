@@ -99,6 +99,5 @@ def process(mode):
     posts = choose_posts(mode, subreddit)
     posts_dict = populate_dict(posts)
 
-    print(posts_dict)
     export_to_pandas(posts_dict)
 
